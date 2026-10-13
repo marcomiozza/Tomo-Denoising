@@ -1,0 +1,8 @@
+# Project environment (setup.sh installs torch separately, CPU or GPU).
+numpy
+scipy
+scikit-image
+pydicom
+tifffile
+imagecodecs    # reads the LZW-compressed TIFFs written by the BM3D binary
+torch

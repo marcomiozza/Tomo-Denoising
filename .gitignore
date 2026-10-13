@@ -1,0 +1,30 @@
+# Data and acquisitions (never versioned)
+Dati/
+data/
+*.dcm
+*.tif
+*.tiff
+
+# Environment, compiled binaries, model weights
+.venv/
+methods/bm3d/build/
+*.pt
+*.pth
+__pycache__/
+*.pyc
+
+# Pipeline working folders
+pipeline/input/*
+pipeline/output/*
+!pipeline/input/.gitkeep
+!pipeline/output/.gitkeep
+
+# Splits and test results with patient file names
+colab/splits.json
+colab/logs/test_results.json
+
+# OS / editor
+.DS_Store
+desktop.ini
+.ipynb_checkpoints/
+.claude/
